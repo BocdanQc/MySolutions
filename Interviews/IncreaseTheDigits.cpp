@@ -1,3 +1,12 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Author: Daniel Emond
+//
+// Description: My C++ solution to the IncreaseTheDigits problem from a Evident Scientific / Olympus (Montreal) interview
+//              question using Codility (https://app.codility.com/).
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // You are given two strings, 𝑆 ﻿and 𝑇, ﻿both of length 𝑁. ﻿Both strings are made up of digits.
 // In a single move, you can select an index 𝐾 ﻿within the range [0..N-2] and increase the digits 𝑆[𝐾] ﻿and 𝑆[𝐾+1] ﻿by 1. ﻿If a digit 9 ﻿is increased, it becomes 0.
 //

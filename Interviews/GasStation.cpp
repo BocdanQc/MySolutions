@@ -43,7 +43,7 @@ string GasStation(string strArr[], int arrLength) {
         break;
       int nextIdx = (i + nbVisited) % (nbStations + 1);
       gasCurr += stations[nextIdx].gasReserve - gasNext;
-      gasNext = stations[nextIdx].gasReserve;
+      gasNext = stations[nextIdx].gasToContinue;
       nbVisited++;
     }
     if (nbVisited == nbStations)
